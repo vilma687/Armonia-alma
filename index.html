@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Armonía_alma - Terapias Alternativas</title>
+    <style>
+        :root {
+            --morado: #7b5b94;
+            --verde-agua: #8fb9aa;
+            --crema: #fdf6e3;
+            --texto: #4a4a4a;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            color: var(--texto);
+            background-color: #fff;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 5%;
+            background-color: var(--crema);
+        }
+
+        nav a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: var(--morado);
+            font-weight: bold;
+        }
+
+        .hero {
+            display: flex;
+            background: linear-gradient(to right, #a18ab3, #b5d5cb);
+            padding: 50px 10%;
+            align-items: center;
+            color: white;
+        }
+
+        .hero-img img {
+            width: 300px;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+
+        .hero-content {
+            margin-left: 50px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 25px;
+            background-color: var(--morado);
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            margin-top: 20px;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            opacity: 0.9;
+            transform: scale(1.05);
+        }
+
+        .diagnosis-section {
+            text-align: center;
+            padding: 60px 10%;
+            background-color: #fff;
+        }
+
+        .terapias-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 40px 5%;
+            background-color: var(--crema);
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+
+        .video-section {
+            padding: 50px 10%;
+            text-align: center;
+        }
+
+        .video-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        footer {
+            background-color: var(--morado);
+            color: white;
+            padding: 30px 10%;
+            text-align: center;
+        }
+
+        .whatsapp-float {
+            background-color: #25d366;
+            padding: 10px 20px;
+            border-radius: 50px;
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo"><strong>Armonía_alma</strong> - Terapias Alternativas</div>
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Terapias</a>
+        <a href="#">Sobre Mí</a>
+        <a href="#">Contacto</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <div class="hero-img">
+        <img src="https://via.placeholder.com/300x400" alt="Tu Foto"> </div>
+    <div class="hero-content">
+        <h1>Espacios de Sanación y Guía</h1>
+        <p>Recupera tu equilibrio interior y vitalidad.</p>
+        <p>Reiki, Péndulo, Auriculoterapia, Flores de Bach y Oráculo para tu bienestar integral.</p>
+        <a href="mailto:armonia_alma@outlook.com" class="btn">Reserva tu Sesión</a>
+    </div>
+</section>
+
+<section class="diagnosis-section">
+    <h2>Descubre tu Estado Energético Actual</h2>
+    <p>¿Sientes un bloqueo? Realiza nuestro breve test gratuito para identificar qué chakras necesitan atención.</p>
+    <a href="https://wa.me/56982327292" class="btn">Comenzar Diagnóstico Gratuito</a>
+</section>
+
+<div class="terapias-grid">
+    <div class="card">
+        <h3>Reiki Usui</h3>
+        <p>Canalización de energía para armonizar cuerpo y mente.</p>
+    </div>
+    <div class="card">
+        <h3>Péndulo y Radiestesia</h3>
+        <p>Consulta y revisión energética profunda mediante el péndulo.</p>
+    </div>
+    <div class="card">
+        <h3>Auriculoterapia</h3>
+        <p>Estimulación de puntos en la oreja para aliviar tensiones físicas y emocionales.</p>
+    </div>
+    <div class="card">
+        <h3>Flores de Bach</h3>
+        <p>Terapia floral para equilibrar tus emociones y alcanzar la calma mental.</p>
+    </div>
+    <div class="card">
+        <h3>Consejos del Oráculo</h3>
+        <p>Guía espiritual y mensajes para tu crecimiento personal.</p>
+    
+</div>
+<section style="text-align: center; padding: 20px;">
+    <h3>Música para Sanar</h3>
+    <audio controls loop>
+        <source src="tu-archivo-de-musica.mp3" type="audio/mpeg">
+        Tu navegador no soporta el elemento de audio.
+    </audio>
+</section>
+
+<footer>
+    <p>Contacto: +56 9 8232 7292 | armonia_alma@outlook.com</p>
+    <p>© 2026 Armonía_alma - Todos los derechos reservados</p>
+</footer>
+
+<a href="https://wa.me/56982327292" class="whatsapp-float">Agendar por WhatsApp</a>
+
+</body>
+</html>
